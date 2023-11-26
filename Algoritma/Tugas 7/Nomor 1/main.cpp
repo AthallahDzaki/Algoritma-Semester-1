@@ -19,7 +19,7 @@ int main() {
     if(char(tolower(status)) == 'y')
     {
         gaji_pokok += (gaji_pokok * 0.20);
-        cout << "Gaji Pokok: Rp." << gaji_pokok << endl;
+        cout << "Gaji Pokok: Rp." << gaji_pokok << " (+ Tunjangan Nikah)" << endl;
     }
     else
         cout << "Gaji Pokok: Rp." << gaji_pokok << endl;
